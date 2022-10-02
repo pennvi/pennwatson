@@ -1,4 +1,34 @@
 * {
+    max-width: 100%;
+    background-color: grey;
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
     align-self: center;
-    background-color: orange;
+}
+
+.subheader {
+    border: 4px solid black;
+}
+
+.subheader h2 {
+    display: inline;
+    align-items: center;
+}
+
+.writing {
+    border: 4px solid black;
+
+}
+.instagram-media {
+
+}
+
+
+
+
+
+video {
+    width: 200px;
 }
