@@ -1,6 +1,9 @@
 * {
     max-width: 100%;
-    background-color: grey;
+    background-color: rgb(197, 234, 255);
+    padding: 0;
+    margin: 0;
+
 }
 
 .header {
@@ -9,7 +12,7 @@
 }
 
 .subheader {
-    border: 4px solid black;
+
 }
 
 .subheader h2 {
@@ -18,7 +21,7 @@
 }
 
 .writing {
-    border: 4px solid black;
+
 
 }
 
