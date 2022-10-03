@@ -21,6 +21,17 @@
     border: 4px solid black;
 
 }
+
+.music-videos {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
 .instagram-media {
 
 }
@@ -30,5 +41,29 @@
 
 
 video {
-    width: 200px;
+    width: 400px;
+    display: inline;
+    margin: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .music-videos {
+        display: inline;
+    }
+
+    video {
+        width: 200px;
+        display: flex;
+    }
+  }
