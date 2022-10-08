@@ -3,70 +3,56 @@
     background-color: rgb(197, 234, 255);
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
 
 }
 
 .header {
-    font-family: 'Times New Roman', Times, serif;
-    align-self: center;
+        text-align: center;
+        margin-bottom: 10px;
 }
 
 .subheader {
-
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .subheader h2 {
-    display: inline;
-    align-items: center;
+    color: red;
+    margin: auto;
 }
 
 .writing {
-
+    margin: 0px 10px;
 
 }
 
 .music-videos {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    max-width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+    width: auto;
 }
 
 
-
-.instagram-media {
+.password {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
 
 }
 
-
+.password-input {
+    color: gray;
+}
 
 
 
 video {
-    width: 400px;
+    width: 90%;
     display: inline;
-    margin: 20px;
+    margin: 8px 20px;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .music-videos {
-        display: inline;
-    }
-
-    video {
-        width: 200px;
-        display: flex;
-    }
-  }
