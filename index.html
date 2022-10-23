@@ -9,24 +9,46 @@
     <script src="js.js"></script>
 </head>
 <body>
+
     <h1 class="header">pennington watson</h1>
 
     <section class="subheader">
         <h2>music</h2>
         <h2>writing</h2>
-    </section>
-    
-    <section class="writing">
-        <p>reach out to me via my social or phone # for password, if interested, to access my 'for-hire' resume, cover letter, and portfolio</p>
+        <h2>tech</h2>
     </section>
 
-    <section class="password">
-        <input class="password-input" type="text" name="type password here" id="password-text" value="enter password">
-        <input type="button" name="enter" id="password-enter" value="go to portfolio">
+    <section class="top-buttons">
+        <a href="https://drive.google.com/drive/folders/1y8JxUkqoAr-P4VEK2WsRbDQwwnzW5TsE?usp=sharing" target="_blank">       
+            <p class="top-button">resume, cover letter, writing <br> portfolio (Google Drive) </p>
+        </a>
+
+        <a href="https://github.com/pennvi/portfolio" target="_blank">
+            <p class="top-button" id="github-button">GitHub repo for this portfolio</p>
+        </a>
+
     </section>
+
+
+
+    <section class="contact">
+
+        <h3 class="contact-h3">contact</h3>
+        
+        <p>phone # &nbsp;&nbsp;: &nbsp;&nbsp;(716) 431-3795</p>
+
+        <p>email &nbsp;&nbsp;: &nbsp;&nbsp;pennwatsonwork@gmail.com</p>
+
+        <a href="https://www.instagram.com/penn.watson/" target="_blank">
+            <input type="button" value="instagram" class="insta-button">
+        </a>
+
+    </section>
+
+    <h3 class="music-header">selections of music</h3>
 
     <section class="music-videos">
-        <video preload="metadata" displaypictureinpicture controls>
+        <video preload="auto" controls>
             <source src="media/leyenda.mp4" type="video/mp4">
         </video>
 
@@ -74,26 +96,10 @@
             <source src="media/registro later.mp4" type="video/mp4">
         </video>
 
-
-
-
-        <script>
-            function setupVideos() {
-              for (const video of document.querySelectorAll('video')) {
-                video.controls = false
-                video.addEventListener('mouseover', () => { video.controls = 'controls' })
-                video.addEventListener('mouseout', () => { video.controls = false })
-              }
-            }
-            window.addEventListener('load', setupVideos, false)
-            </script>
-            
-            
-
-
+    
     </section>
 
-    <footer>
+    <footer class="footer">
         <h3></h3>
         <h3></h3>
         <h3></h3>

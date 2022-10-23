@@ -1,50 +1,104 @@
 * {
     max-width: 100%;
-    background-color: rgb(197, 234, 255);
+    background-color: rgb(31, 31, 54);
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-
+    color: white;
 
 }
 
 .header {
         text-align: center;
-        margin-bottom: 10px;
+        margin: 20px 0px 6px 0px;
+
 }
 
 .subheader {
     display: flex;
     margin-bottom: 10px;
+
 }
 
 .subheader h2 {
-    color: red;
+    color: grey;
     margin: auto;
 }
 
-.writing {
-    margin: 0px 10px;
+.top-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px;
+    
+    height: 32px;
 
 }
+
+.top-button {
+
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border: 0px;
+    padding: 4px 10px;
+    margin: 0px;
+}
+
+#github-button {
+    padding: 12px 10px;
+}
+
+
+.contact-h3 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: normal;
+
+    margin-top: 32px;
+    margin-bottom: 10px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+
+.contact p {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+    
+    
+    color: grey;
+    font-size: 14px;
+}
+
+.insta-button {
+    margin-top: 6px;
+    background-color: grey;
+    border: 0;
+    padding: 2px 8px;
+
+    font-size: 14px;
+}
+
+
+.music-header {
+    margin: 24px 0px 16px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 .music-videos {
     width: auto;
 }
-
-
-.password {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0px;
-
-}
-
-.password-input {
-    color: gray;
-}
-
-
 
 video {
     width: 90%;
@@ -52,7 +106,54 @@ video {
     margin: 8px 20px;
 }
 
+footer {
+    background-color: grey;
+    height: 24px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
 
 
 
 
+
+
+@media only screen and (min-width: 600px) {
+    
+    
+    
+    html {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+    .top-buttons {
+    font-size: 100px;
+        justify-content: center;
+        gap: 60px;
+    }
+    
+
+
+
+
+
+
+
+
+.music-videos {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+
+
+
+} 
