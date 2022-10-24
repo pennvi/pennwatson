@@ -9,8 +9,8 @@
 }
 
 .header {
-        text-align: center;
-        margin: 20px 0px 6px 0px;
+    text-align: center;
+    margin: 20px 0px 6px 0px;
 
 }
 
@@ -39,14 +39,14 @@
     font-size: 13px;
     text-decoration: none;
     text-align: center;
-    background-color: black;
+    background-color: rgb(17, 17, 29);
     border: 0px;
-    padding: 4px 10px;
+    padding: 6px 10px;
     margin: 0px;
 }
 
 #github-button {
-    padding: 12px 10px;
+    padding: 16px 10px;
 }
 
 
@@ -127,33 +127,72 @@ a {
     
     
     html {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
+    .header {
+        font-size: 36px;
+    }
+
+    .subheader {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        gap: 20%;
+        font-size: 20px;
+    }
+
+    .subheader h2 {
+        margin: 0;
+    }
+
+
+    .top-button {
+        font-size: 17px;
+    }
+
+
+
+
+    .contact-h3 {
+        font-size: 24px;
+    }
+
+    .contact p {
+        font-size: 18px;
+    }
+
+    .insta-button {
+        font-size: 18px;
+    }
+
+    .music-header {
+        font-size: 24px;
+    }
 
     .top-buttons {
     font-size: 100px;
         justify-content: center;
         gap: 60px;
     }
-    
 
 
+    .music-videos {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
 
+    video {
+        margin: 14px 20px;
+    }
 
-
-
-
-
-.music-videos {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-}
-
-
+    .footer {
+        display: none;
+    }
 
 
 } 
