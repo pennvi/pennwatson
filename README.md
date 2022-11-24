@@ -1,2 +1,1 @@
-an ongoing piece: hopefully lasting more than one year.
-
+an ongoing piece: hopefully lasting more than one year. more writing, music stuff, and a section on teaching to be added.

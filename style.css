@@ -200,7 +200,7 @@ a {
     }
 
     .desktop-header {
-        margin-top: 20px;
+        margin-top: 32px;
         margin-left: 10px;
     }
 
@@ -223,12 +223,21 @@ a {
     }
 
 
+    .desktop-subheader {
+        display: flex;
+        margin: 40px auto 24px auto;
+
+        gap: 100px;
+    }
+
+
+
 
 
     .top-buttons {
-        margin: 24px;
-        flex-direction: column;
-        height: fit-content;
+        display: inline-block;
+        margin: 0px;
+
 
     }
 
@@ -242,7 +251,7 @@ a {
 
     .top-button p {
         width: fit-content;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .top-buttons a {
@@ -260,9 +269,10 @@ a {
 
 
     .contact {
-        display: flex;
+        display: inline-flex;
+        flex-direction: column;
         margin: 0;
-
+        margin-left: 18%;
         padding: 0;
     }
 
@@ -270,9 +280,9 @@ a {
         display: inline;
         width: fit-content;
         margin: 0;
-        margin-left: 20px;
+        margin-bottom: 12px;
         padding: 5px;
-        background-color: white;
+        background-color: rgba(212, 210, 210, 0.672);
         color: rgb(17, 17, 29);
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 20px;
@@ -283,20 +293,23 @@ a {
 
 
     .contact-info {
-        margin-left: 40px;
+        display: inline;
+        /* margin-top: 7px; */
+        margin: 0px;
     }
 
 
 
     .contact p {
-   
         font-size: 18px;
+        margin-bottom: 6px;
     }
 
     .insta-button {
         display: inline-block;
+        margin-top: 6px;
 
-        width: 32px;
+        width: 34px;
     }
 
 
