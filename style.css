@@ -117,7 +117,7 @@
 }
 
 .contact-info p {
-    width: fit-content;
+    width: 100%;
     color: grey;
     font-size: 15px;
 }
@@ -163,6 +163,11 @@ a {
     text-decoration: none;
     display: block;
 }
+
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
 
 
 
